@@ -17,10 +17,21 @@
 
     <div class="products__view">
         <!-- Заголовок общей секции -->
-        <h3 class="products__cards__heading">Хиты продаж </h3>
-        <!-- Кнопки для перехода к предыдущему и следующему слайду -->
-        <a href="#" class="slider__control" data-slide="prev"></a>
-        <a href="#" class="slider__control" data-slide="next"></a>
+        <div class="products__cards__heading">
+            <h3 >Хиты продаж </h3>
+            <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+            <a href="#" class="slider__control" data-slide="prev">
+                <svg class="icon-to-left" width="20" height="20" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.03809 9.21999L3.31809 5.49999L7.03809 1.77999L5.85909 0.600986L2.13909 4.32099L0.960087 5.49999L2.13909 6.67899L5.85909 10.399L7.03809 9.21999Z" fill="#888888"/>
+                </svg>
+            </a>
+            <a href="#" class="slider__control" data-slide="next">
+                <svg class="icon-to-right" width="20" height="20" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.961914 1.78001L4.68191 5.50001L0.961914 9.22001L2.14091 10.399L5.86091 6.67901L7.03991 5.50001L5.86091 4.32101L2.14091 0.601013L0.961914 1.78001Z" fill="#888888"/>
+                </svg>
+            </a>  
+        </div>
+        
               
         <article class="products__cards">   
              <div class="products_container">
@@ -39,21 +50,28 @@
                                 <p class="product__preheading">Удаленное управление</p>
                                 <p class="product__heading">Кондиционер №1 </p>
                                 <div class="product__rating">
-                                    svg
+                                    <svg class="rating-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#00ADEF"/>
+                                    </svg>
                                     <span class="goods__rating__number">4.5</span>
                                 </div>
                             </div>
                             <div class="product__price">
                                 <div>
-                                    <span class="product__price-new">57&nbsp;990</span>
-                                    <span class="product__price-old">66&nbsp;000</span>
+                                    <p class="product__price-new">57&nbsp;990 руб.</p>
+                                    <p class="product__price-old">66&nbsp;000 руб.</p>
                                 </div>                 
                             </div>
                             <div class="product__actions">
                                 <a class="product__btn-add">В корзину</a>
                                 <div class="product__action">
-                                    svg 
-                                    svg
+                                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5285 18.6423L19.4932 10.5874C21.7075 8.29786 21.7075 4.75933 19.4932 2.46981C18.4428 1.38746 16.9709 0.771622 15.4288 0.769339C14.0237 0.770898 12.6765 1.28126 11.6526 2.18965C11.5518 2.27899 11.4543 2.37218 11.3601 2.46912L11.0015 2.83232L10.643 2.46912C10.5466 2.36962 10.4471 2.27445 10.3448 2.18362C8.23358 0.308414 4.93816 0.284066 2.79525 2.19279C2.6957 2.2815 2.59955 2.37364 2.50701 2.46912C0.292586 4.75888 0.292586 8.29762 2.50701 10.5874L10.4746 18.6423C10.7503 18.9213 11.2097 18.9333 11.5007 18.669C11.5102 18.6604 11.5195 18.6515 11.5285 18.6423ZM3.16709 9.9421L11.0015 17.8624L18.8331 9.94212C20.6976 8.01057 20.6967 5.04276 18.8303 3.11223C17.958 2.21367 16.7272 1.69466 15.4286 1.69242C14.1285 1.69418 12.8959 2.21321 12.0221 3.11243L12.017 3.11762L11.0015 4.14626L9.98012 3.11157C8.23874 1.31486 5.28856 1.20825 3.40936 2.88195M3.16709 9.9421C1.30229 8.01019 1.30333 5.04195 3.1702 3.11118C3.24673 3.03224 3.32659 2.95571 3.40936 2.88195" fill="#444444"/>
+                                    </svg>
+                                    <svg class="compare-icon" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0.538452L18 0.538452V1.46153H0V0.538452ZM0 5.53845H18V6.46153H0V5.53845ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.49999H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z" fill="#444444"/>
+                                    </svg>
+                                        
                                 </div>
                             </div>
                         </li>
@@ -70,25 +88,32 @@
                                 <p class="product__preheading">Удаленное управление</p>
                                 <p class="product__heading">Кондиционер №1 </p>
                                 <div class="product__rating">
-                                    svg
+                                    <svg class="rating-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#00ADEF"/>
+                                    </svg>
                                     <span class="goods__rating__number">4.5</span>
                                 </div>
                             </div>
                             <div class="product__price">
                                 <div>
-                                    <span class="product__price-new">57&nbsp;990</span>
-                                    <span class="product__price-old">66&nbsp;000</span>
+                                    <p class="product__price-new">57&nbsp;990 руб.</p>
+                                    <p class="product__price-old">66&nbsp;000 руб.</p>
                                 </div>                 
                             </div>
                             <div class="product__actions">
                                 <a class="product__btn-add">В корзину</a>
                                 <div class="product__action">
-                                    svg 
-                                    svg
+                                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5285 18.6423L19.4932 10.5874C21.7075 8.29786 21.7075 4.75933 19.4932 2.46981C18.4428 1.38746 16.9709 0.771622 15.4288 0.769339C14.0237 0.770898 12.6765 1.28126 11.6526 2.18965C11.5518 2.27899 11.4543 2.37218 11.3601 2.46912L11.0015 2.83232L10.643 2.46912C10.5466 2.36962 10.4471 2.27445 10.3448 2.18362C8.23358 0.308414 4.93816 0.284066 2.79525 2.19279C2.6957 2.2815 2.59955 2.37364 2.50701 2.46912C0.292586 4.75888 0.292586 8.29762 2.50701 10.5874L10.4746 18.6423C10.7503 18.9213 11.2097 18.9333 11.5007 18.669C11.5102 18.6604 11.5195 18.6515 11.5285 18.6423ZM3.16709 9.9421L11.0015 17.8624L18.8331 9.94212C20.6976 8.01057 20.6967 5.04276 18.8303 3.11223C17.958 2.21367 16.7272 1.69466 15.4286 1.69242C14.1285 1.69418 12.8959 2.21321 12.0221 3.11243L12.017 3.11762L11.0015 4.14626L9.98012 3.11157C8.23874 1.31486 5.28856 1.20825 3.40936 2.88195M3.16709 9.9421C1.30229 8.01019 1.30333 5.04195 3.1702 3.11118C3.24673 3.03224 3.32659 2.95571 3.40936 2.88195" fill="#444444"/>
+                                    </svg>
+                                    <svg class="compare-icon" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0.538452L18 0.538452V1.46153H0V0.538452ZM0 5.53845H18V6.46153H0V5.53845ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.49999H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z" fill="#444444"/>
+                                    </svg>
+                                        
                                 </div>
                             </div>
                         </li>
-    
+
                         <li class="products_item">
                             <div class="products_item__img">
                                 <div class="product__img">
@@ -101,25 +126,32 @@
                                 <p class="product__preheading">Удаленное управление</p>
                                 <p class="product__heading">Кондиционер №1 </p>
                                 <div class="product__rating">
-                                    svg
+                                    <svg class="rating-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#00ADEF"/>
+                                    </svg>
                                     <span class="goods__rating__number">4.5</span>
                                 </div>
                             </div>
                             <div class="product__price">
                                 <div>
-                                    <span class="product__price-new">57&nbsp;990</span>
-                                    <span class="product__price-old">66&nbsp;000</span>
+                                    <p class="product__price-new">57&nbsp;990 руб.</p>
+                                    <p class="product__price-old">66&nbsp;000 руб.</p>
                                 </div>                 
                             </div>
                             <div class="product__actions">
                                 <a class="product__btn-add">В корзину</a>
                                 <div class="product__action">
-                                    svg 
-                                    svg
+                                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5285 18.6423L19.4932 10.5874C21.7075 8.29786 21.7075 4.75933 19.4932 2.46981C18.4428 1.38746 16.9709 0.771622 15.4288 0.769339C14.0237 0.770898 12.6765 1.28126 11.6526 2.18965C11.5518 2.27899 11.4543 2.37218 11.3601 2.46912L11.0015 2.83232L10.643 2.46912C10.5466 2.36962 10.4471 2.27445 10.3448 2.18362C8.23358 0.308414 4.93816 0.284066 2.79525 2.19279C2.6957 2.2815 2.59955 2.37364 2.50701 2.46912C0.292586 4.75888 0.292586 8.29762 2.50701 10.5874L10.4746 18.6423C10.7503 18.9213 11.2097 18.9333 11.5007 18.669C11.5102 18.6604 11.5195 18.6515 11.5285 18.6423ZM3.16709 9.9421L11.0015 17.8624L18.8331 9.94212C20.6976 8.01057 20.6967 5.04276 18.8303 3.11223C17.958 2.21367 16.7272 1.69466 15.4286 1.69242C14.1285 1.69418 12.8959 2.21321 12.0221 3.11243L12.017 3.11762L11.0015 4.14626L9.98012 3.11157C8.23874 1.31486 5.28856 1.20825 3.40936 2.88195M3.16709 9.9421C1.30229 8.01019 1.30333 5.04195 3.1702 3.11118C3.24673 3.03224 3.32659 2.95571 3.40936 2.88195" fill="#444444"/>
+                                    </svg>
+                                    <svg class="compare-icon" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0.538452L18 0.538452V1.46153H0V0.538452ZM0 5.53845H18V6.46153H0V5.53845ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.49999H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z" fill="#444444"/>
+                                    </svg>
+                                        
                                 </div>
                             </div>
                         </li>
-    
+
                         <li class="products_item">
                             <div class="products_item__img">
                                 <div class="product__img">
@@ -132,25 +164,32 @@
                                 <p class="product__preheading">Удаленное управление</p>
                                 <p class="product__heading">Кондиционер №1 </p>
                                 <div class="product__rating">
-                                    svg
-                                    <span class="goods__rating__number">4.5</span>
+                                    <svg class="rating-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#00ADEF"/>
+                                    </svg>
+                                    <span class="rating__number">4.5</span>
                                 </div>
                             </div>
                             <div class="product__price">
                                 <div>
-                                    <span class="product__price-new">57&nbsp;990</span>
-                                    <span class="product__price-old">66&nbsp;000</span>
+                                    <p class="product__price-new">57&nbsp;990 руб.</p>
+                                    <p class="product__price-old">66&nbsp;000 руб.</p>
                                 </div>                 
                             </div>
                             <div class="product__actions">
                                 <a class="product__btn-add">В корзину</a>
                                 <div class="product__action">
-                                    svg 
-                                    svg
+                                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5285 18.6423L19.4932 10.5874C21.7075 8.29786 21.7075 4.75933 19.4932 2.46981C18.4428 1.38746 16.9709 0.771622 15.4288 0.769339C14.0237 0.770898 12.6765 1.28126 11.6526 2.18965C11.5518 2.27899 11.4543 2.37218 11.3601 2.46912L11.0015 2.83232L10.643 2.46912C10.5466 2.36962 10.4471 2.27445 10.3448 2.18362C8.23358 0.308414 4.93816 0.284066 2.79525 2.19279C2.6957 2.2815 2.59955 2.37364 2.50701 2.46912C0.292586 4.75888 0.292586 8.29762 2.50701 10.5874L10.4746 18.6423C10.7503 18.9213 11.2097 18.9333 11.5007 18.669C11.5102 18.6604 11.5195 18.6515 11.5285 18.6423ZM3.16709 9.9421L11.0015 17.8624L18.8331 9.94212C20.6976 8.01057 20.6967 5.04276 18.8303 3.11223C17.958 2.21367 16.7272 1.69466 15.4286 1.69242C14.1285 1.69418 12.8959 2.21321 12.0221 3.11243L12.017 3.11762L11.0015 4.14626L9.98012 3.11157C8.23874 1.31486 5.28856 1.20825 3.40936 2.88195M3.16709 9.9421C1.30229 8.01019 1.30333 5.04195 3.1702 3.11118C3.24673 3.03224 3.32659 2.95571 3.40936 2.88195" fill="#444444"/>
+                                    </svg>
+                                    <svg class="compare-icon" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0.538452L18 0.538452V1.46153H0V0.538452ZM0 5.53845H18V6.46153H0V5.53845ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.49999H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z" fill="#444444"/>
+                                    </svg>
+                                        
                                 </div>
                             </div>
                         </li>
-    
+
                         <li class="products_item">
                             <div class="products_item__img">
                                 <div class="product__img">
@@ -163,55 +202,32 @@
                                 <p class="product__preheading">Удаленное управление</p>
                                 <p class="product__heading">Кондиционер №1 </p>
                                 <div class="product__rating">
-                                    svg
+                                    <svg class="rating-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#00ADEF"/>
+                                    </svg>
                                     <span class="goods__rating__number">4.5</span>
                                 </div>
                             </div>
                             <div class="product__price">
                                 <div>
-                                    <span class="product__price-new">57&nbsp;990</span>
-                                    <span class="product__price-old">66&nbsp;000</span>
+                                    <p class="product__price-new">57&nbsp;990 руб.</p>
+                                    <p class="product__price-old">66&nbsp;000 руб.</p>
                                 </div>                 
                             </div>
                             <div class="product__actions">
                                 <a class="product__btn-add">В корзину</a>
                                 <div class="product__action">
-                                    svg 
-                                    svg
+                                    <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5285 18.6423L19.4932 10.5874C21.7075 8.29786 21.7075 4.75933 19.4932 2.46981C18.4428 1.38746 16.9709 0.771622 15.4288 0.769339C14.0237 0.770898 12.6765 1.28126 11.6526 2.18965C11.5518 2.27899 11.4543 2.37218 11.3601 2.46912L11.0015 2.83232L10.643 2.46912C10.5466 2.36962 10.4471 2.27445 10.3448 2.18362C8.23358 0.308414 4.93816 0.284066 2.79525 2.19279C2.6957 2.2815 2.59955 2.37364 2.50701 2.46912C0.292586 4.75888 0.292586 8.29762 2.50701 10.5874L10.4746 18.6423C10.7503 18.9213 11.2097 18.9333 11.5007 18.669C11.5102 18.6604 11.5195 18.6515 11.5285 18.6423ZM3.16709 9.9421L11.0015 17.8624L18.8331 9.94212C20.6976 8.01057 20.6967 5.04276 18.8303 3.11223C17.958 2.21367 16.7272 1.69466 15.4286 1.69242C14.1285 1.69418 12.8959 2.21321 12.0221 3.11243L12.017 3.11762L11.0015 4.14626L9.98012 3.11157C8.23874 1.31486 5.28856 1.20825 3.40936 2.88195M3.16709 9.9421C1.30229 8.01019 1.30333 5.04195 3.1702 3.11118C3.24673 3.03224 3.32659 2.95571 3.40936 2.88195" fill="#444444"/>
+                                    </svg>
+                                    <svg class="compare-icon" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0.538452L18 0.538452V1.46153H0V0.538452ZM0 5.53845H18V6.46153H0V5.53845ZM14.9615 13.4615V16.5H14.0385V13.4615H11V12.5385H14.0385V9.49999H14.9615V12.5385H18V13.4615H14.9615ZM0 10.5385H9V11.4615H0V10.5385ZM0 15.5385H9V16.4615H0V15.5385Z" fill="#444444"/>
+                                    </svg>
+                                        
                                 </div>
                             </div>
                         </li>
-    
-                        <li class="products_item">
-                            <div class="products_item__img">
-                                <div class="product__img">
-                                    <img src="./images/photo2.jpg" alt="photo" srcset="">
-                                </div>
-                                <p class="product__new">Новинка</p>
-                                <p class="product__bestseller">Хит продаж</p>
-                            </div>
-                            <div class="product__item_heading">
-                                <p class="product__preheading">Удаленное управление</p>
-                                <p class="product__heading">Кондиционер №1 </p>
-                                <div class="product__rating">
-                                    svg
-                                    <span class="goods__rating__number">4.5</span>
-                                </div>
-                            </div>
-                            <div class="product__price">
-                                <div>
-                                    <span class="product__price-new">57&nbsp;990</span>
-                                    <span class="product__price-old">66&nbsp;000</span>
-                                </div>                 
-                            </div>
-                            <div class="product__actions">
-                                <a class="product__btn-add">В корзину</a>
-                                <div class="product__action">
-                                    svg 
-                                    svg
-                                </div>
-                            </div>
-                        </li>
+                        
     
                     </ul>
                 </div>
